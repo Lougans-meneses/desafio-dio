@@ -1,6 +1,6 @@
 let nome = "Monkey D. Luffy";
-
 let xp = 9999;
+let nivel;
 
 if (xp < 1000) {
   nivel = "Ferro";
@@ -21,4 +21,6 @@ if (xp < 1000) {
 }
 
 console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
+
+
 
